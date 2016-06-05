@@ -6,7 +6,7 @@
     echo $telnetClient->login("telnet", "telnet");
     echo $telnetClient->exec("dir");
 
-#### TelnetClient contractor have three paramters:
+#### TelnetClient constractor have three paramters:
 
     * string $ip server ip or host
     * string port
